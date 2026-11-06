@@ -1,0 +1,29 @@
+# Local credentials and environment configuration
+.env
+.env.*
+!.env.example
+**/appsettings.*.json
+
+# .NET and Visual Studio generated files
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+
+# Front-end tooling output
+node_modules/
+dist/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+
+# Logs and temporary files
+*.log
+*.tmp

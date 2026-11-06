@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+**/.vs/
+*.user
+*.suo
+**/bin/
+**/obj/
+
+# Front-end tooling
+**/node_modules/
+**/dist/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+**/appsettings*.json
+!**/appsettings.example.json

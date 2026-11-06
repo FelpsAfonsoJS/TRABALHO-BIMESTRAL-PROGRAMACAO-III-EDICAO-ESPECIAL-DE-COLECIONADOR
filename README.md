@@ -1,28 +1,42 @@
 <div align="center">
 
-![HTML5](https://img.shields.io/badge/HTML5-estrutura-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-interface-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-interatividade-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
-![.NET 8](https://img.shields.io/badge/.NET-8-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-banco-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Lembretes da Missão — banner tático inspirado em Counter-Strike 1.6](assets/cs16-banner.svg)
 
-# 🎯 Lembretes da Missão
+![HTML5](https://img.shields.io/badge/HTML5-ESTRUTURA-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-INTERFACE-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-INTERATIVIDADE-F7DF1E?style=for-the-badge&logo=javascript&logoColor=111111)
+![.NET 8](https://img.shields.io/badge/.NET_8-API-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-DATABASE-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-### Planeje a rodada antes que a bomba exploda.
+<sub><code>COUNTER-STRIKE 1.6 // MISSION BRIEFING // UMFG 2026</code></sub>
 
-Aplicação acadêmica de lembretes com uma interface inspirada na atmosfera tática e na estética clássica de **Counter-Strike 1.6**.
-
-`PROJETO ACADÊMICO` &nbsp;·&nbsp; `UMFG` &nbsp;·&nbsp; `2026`
+**PLANEJE A RODADA. CUMPRA O OBJETIVO.**
 
 </div>
 
+> [!IMPORTANT]
+> **MISSÃO ATIVA:** Organize seus lembretes, acompanhe suas tarefas e mantenha o objetivo sob controle. Este projeto acadêmico utiliza a estética tática clássica de Counter-Strike 1.6 como referência visual.
+
+### 📟 PAINEL DE NAVEGAÇÃO
+
+| Setor | Área | Acesso rápido |
+|:--:|:--|:--|
+| `01` | Briefing | [Sobre o projeto](#briefing) |
+| `02` | Objetivos | [Recursos](#objetivos) |
+| `03` | Loadout | [Tecnologias e paleta](#loadout) |
+| `04` | Mapa | [Organização](#mapa) |
+| `05` | Partida | [Como executar](#iniciar) |
+| `06` | Rádio | [Rotas da API](#comandos) |
+| `07` | Equipe | [Créditos](#creditos) |
+| `08` | Intel | [Referências](#intel) |
+
 ---
 
-## 🧭 Sobre o projeto
 
 O **Lembretes da Missão** é um projeto de Programação III dividido em front-end e API. A identidade visual faz referência ao clima de Counter-Strike 1.6 — paleta tática, elementos de HUD e linguagem de missão — enquanto a aplicação permite cadastrar, consultar e organizar lembretes.
 
-## ✨ Recursos
+<a id="objetivos"></a>
+## 🎯 02 // OBJETIVOS DA RODADA
 
 - 📝 Criar, editar e excluir lembretes.
 - 🔎 Filtrar por texto, data de cadastro e data de atualização.
@@ -30,7 +44,8 @@ O **Lembretes da Missão** é um projeto de Programação III dividido em front-
 - 🖨️ Gerar e baixar um relatório em PDF.
 - 🎮 Interface responsiva inspirada em jogos táticos clássicos.
 
-## 🧰 Tecnologias
+<a id="loadout"></a>
+## 🛠️ 03 // EQUIPAMENTOS DO LOADOUT
 
 | Camada | Tecnologias |
 |---|---|
@@ -39,7 +54,18 @@ O **Lembretes da Missão** é um projeto de Programação III dividido em front-
 | Banco de dados | MySQL |
 | Relatório PDF | QuestPDF |
 
-## 📁 Organização
+### 🎨 PALETA TÁTICA // HUD COLOR PROFILE
+
+| Elemento da interface | Cor | Código |
+|:--|:--|:--|
+| Fundo principal | ⚫ Preto operacional | `#101712` |
+| Painéis e superfícies | 🟩 Verde-chumbo | `#283328` |
+| Destaques e alertas | 🟨 Areia / dourado | `#D4B26D` |
+| Indicadores de status | 🟢 Verde militar | `#72835B` |
+| Texto principal | ⚪ Branco-acinzentado | `#E9E8D8` |
+
+<a id="mapa"></a>
+## 🗂️ 04 // MAPA DE ARQUIVOS
 
 ```text
 lembretes-da-missao/
@@ -61,7 +87,8 @@ lembretes-da-missao/
 └── README.md
 ```
 
-## 🚦 Como executar localmente
+<a id="iniciar"></a>
+## 🟢 05 // INICIAR PARTIDA
 
 São necessários o **.NET 8 SDK**, o **MySQL** e o **Visual Studio Code** com a extensão **Live Server**. A API usa a variável de ambiente `ConnectionString`; não salve nem publique credenciais no código.
 
@@ -103,7 +130,8 @@ Abra `frontend/index.html` com **Live Server** no VS Code (botão **Go Live**). 
 
 > Se mudar a porta HTTPS da API, atualize `API_URL` em `frontend/js/app.js`. Se aparecer um aviso de certificado, confirme a confiança do certificado de desenvolvimento com `dotnet dev-certs https --trust`.
 
-## 🗺️ Rotas da API
+<a id="comandos"></a>
+## 📡 06 // COMANDOS DA API
 
 | Método | Rota | Ação |
 |---|---|---|
@@ -114,7 +142,8 @@ Abra `frontend/index.html` com **Live Server** no VS Code (botão **Go Live**). 
 | `DELETE` | `/lembretes/{id}` | Desativa um lembrete |
 | `GET` | `/lembretes/imprimir` | Gera relatório em PDF |
 
-## 🎓 Créditos acadêmicos
+<a id="creditos"></a>
+## 🏅 07 // CRÉDITOS ACADÊMICOS
 
 - **Estudante responsável:** Felps.
 - **Disciplina:** Programação III — Front-end.
@@ -123,7 +152,8 @@ Abra `frontend/index.html` com **Live Server** no VS Code (botão **Go Live**). 
 
 Este é um projeto acadêmico independente, sem associação, patrocínio ou aprovação da Valve. **Counter-Strike**, **Counter-Strike 1.6** e as marcas relacionadas pertencem aos respectivos titulares. O jogo é citado como referência temática; este repositório não é um produto oficial da Valve.
 
-## 🔗 Referências e créditos
+<a id="intel"></a>
+## 🔗 08 // INTEL & REFERÊNCIAS
 
 - [Counter-Strike na Steam](https://store.steampowered.com/app/10/CounterStrike/) — página oficial do jogo.
 - [Valve](https://www.valvesoftware.com/) — site oficial da empresa.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+<title id="title">Lembretes da Missão</title><desc id="desc">Banner tático em verde militar e dourado, inspirado na interface clássica de jogos FPS.</desc>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101712"/><stop offset="1" stop-color="#283328"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#AAB894" stroke-opacity=".13"/></pattern></defs>
+<rect width="1200" height="360" fill="url(#bg)"/><rect width="1200" height="360" fill="url(#grid)"/><path d="M0 0H1200V7H0ZM0 353H1200V360H0Z" fill="#D4B26D"/>
+<path d="M30 30h70m-70 0v70M1170 30h-70m70 0v70M30 330h70m-70 0v-70M1170 330h-70m70 0v-70" fill="none" stroke="#D4B26D" stroke-width="3"/>
+<g fill="none" stroke="#A9B78B" stroke-opacity=".35"><circle cx="1000" cy="177" r="105" stroke-width="2"/><circle cx="1000" cy="177" r="75"/><path d="M1000 50v254M873 177h254" stroke-width="2"/></g>
+<rect x="92" y="72" width="176" height="28" rx="3" fill="#D4B26D"/><text x="180" y="91" text-anchor="middle" font-family="Arial,sans-serif" font-size="15" font-weight="bold" fill="#182018">MISSION BRIEFING</text>
+<text x="90" y="168" font-family="Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2" fill="#E9E8D8">LEMBRETES</text><text x="90" y="235" font-family="Arial,sans-serif" font-size="62" font-weight="900" letter-spacing="2" fill="#D4B26D">DA MISSÃO</text>
+<text x="93" y="281" font-family="Arial,sans-serif" font-size="19" letter-spacing="3" fill="#B9C7A7">PLANEJE A RODADA. CUMPRA O OBJETIVO.</text><text x="1015" y="325" text-anchor="middle" font-family="monospace" font-size="15" fill="#D4B26D">CS 1.6 // HUD STYLE</text>
+</svg>
